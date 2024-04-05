@@ -1,0 +1,105 @@
+body{
+    background-color: burlywood;
+    font-family: serif;
+}
+
+h1{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: lightblue;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    padding-left:10%;
+    padding-right:10%;
+}
+
+.konten_kanan img{
+    float:right;
+    margin: 5%;
+    padding: 24px;
+    background-color: lightgrey;
+}
+
+.konten_kiri p{
+    float:left;
+    margin: 5%;
+    padding:20px;
+    border-left: 3px solid red;
+    background-color: lightgrey;
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 280px;
+    height: 320px;
+    border: ipx solid black;
+}
+
+a[target] {
+    background-color: pink;
+}
+
+.link_penjelasan{
+    text-align: center;
+    width: 100%;
+
+    a:link, a:visited {
+        background-color: lightblue;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        width: 100%;
+        height: 35px;
+        border-radius: 30px;
+    }
+  
+    a:hover, a:active {
+        background-color: whitesmoke;
+    }
+
+    a:hover {background-color: coral;}
+}
+
+h2{
+    text-align: center;
+    border: 1px solid black;
+    background-color: darkblue;
+    color: white;
+    padding: 5px;
+    width: 50%;
+    float: left;
+}
+
+.penjelasan p{
+    border-left: 3px solid red;
+    background-color: lightgrey;
+    height: auto;
+    padding: 4px;
+    margin: 10px;
+    width: 50%;
+    float: left;
+}
+
+.grid_foto{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+      
+.grid_foto img{
+    margin-top: 8px;
+    width: 225px;
+    height: 250px;
+    padding: 4px;
+}
+
+
+
+
