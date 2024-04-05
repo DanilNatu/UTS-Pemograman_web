@@ -34,7 +34,7 @@ ul.a {
     list-style-type: circle;
 }
   
-.pengarah tr:hover {background-color: coral;}
+tr:hover {background-color: coral;}
 
 img{
     display: block;
